@@ -1,0 +1,6 @@
+@"
+*.exe
+*.o
+build/
+output.pcap
+"@ | Out-File -Encoding ascii .gitignore
